@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>IP Geo</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <link rel="stylesheet" href="css/index.css">
+
+
+</head>
+
+<body>
+  <form class="form" action="">
+    <h1 class="form__title">IP Adress Tracker</h1>
+    <div class="form__inp-ctn">
+      <input class="form__input" type="text" placeholder="Search for any IP adress or domain">
+      <button class="form__button"><img src="/images/icon-arrow.svg" alt=""></button>
+    </div>
+
+
+    <div class="display">
+      <div class="display__ctn">
+        <h1 class="display__title">IP Adress</h1>
+        <h2 class="display__subtitle">None</h2>
+      </div>
+      <div class="display__ctn">
+        <h1 class="display__title">Location</h1>
+        <h2 class="display__subtitle">None</h2>
+      </div>
+      <div class="display__ctn">
+        <h1 class="display__title">Time Zone</h1>
+        <h2 class="display__subtitle">None</h2>
+      </div>
+      <div class="display__ctn">
+        <h1 class="display__title">IPS</h1>
+        <h2 class="display__subtitle">None</h2>
+      </div>
+    </div>
+  </form>
+
+
+  <div class="map" id="map"></div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
