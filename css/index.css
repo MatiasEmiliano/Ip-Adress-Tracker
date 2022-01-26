@@ -8,7 +8,7 @@
 
 .form {
   height: 250px;
-  background-image: url("images/pattern-bg.png");
+  background-image: url("../images/pattern-bg.png");
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
